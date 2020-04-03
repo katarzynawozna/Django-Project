@@ -15,7 +15,7 @@ Strona stworzona przy pomocy frameworka Django w ramach zaliczenia "Projektu w j
  - [x] Konfiguracja Django
  - [x] Stworzenie 'bloga' jako docelowej aplikacji
  - [x] Stworzenie szablonów HTML
- - [x] Konfiguracja panelu admina [x]
+ - [x] Konfiguracja panelu admina
  - [x] Połączenie strony z bazą danych, pobieranie z niej wpisów
 
 ## To Do:
