@@ -8,6 +8,7 @@ Strona stworzona przy pomocy frameworka Django w ramach zaliczenia "Projektu w j
 * Django 3.0.5
 * Python 3.6.9
 * Sqlite3
+* Bootstrap
 
 ## Raport 1
 
@@ -15,14 +16,21 @@ Strona stworzona przy pomocy frameworka Django w ramach zaliczenia "Projektu w j
  - [x] Konfiguracja Django
  - [x] Stworzenie 'bloga' jako docelowej aplikacji
  - [x] Stworzenie szablonów HTML
- - [x] Konfiguracja panelu admina
+ - [x] Konfiguracja panelu admina [x]
  - [x] Połączenie strony z bazą danych, pobieranie z niej wpisów
 
-## To Do:
+## Raport 2
 
- - [ ] Zdefiniowanie CSS'a, zadbanie o wygląd
- - [ ] Dodanie możliwości dodawania zdjęć do postów
- - [ ] Dodanie możliwości komentowania postów
- - [ ] Możliwość samodzielnego zakładania konta przez użytkowników
+ - [x] Rozpoczęcie nauki Bootstrapa (końcowy CSS miałby być zdefiniowany przy jego pomocy
+ ~~- [ ] Dodanie możliwości dodawania zdjęć do postów~~
+ - [x] Dodanie możliwości komentowania postów
+ - [x] Możliwość samodzielnego zakładania konta przez użytkowników
+
+## Raport 3
+
+ - [x] System logowania/wylogowywania
+ - [x] Samodzielna akutalizacja profilu przez użytkownika
+ - [x] Stylizacja formularza rejestracji przy pomocy CrispyForms
+ - [ ] Dodawanie/usuwanie/aktualizowanie postów przez użytkowników
 
 
