@@ -22,7 +22,7 @@ Strona stworzona przy pomocy frameworka Django w ramach zaliczenia "Projektu w j
 ## Raport 2
 
  - [x] Rozpoczęcie nauki Bootstrapa (końcowy CSS miałby być zdefiniowany przy jego pomocy
- ~~- [ ] Dodanie możliwości dodawania zdjęć do postów~~
+ - [ ] ~~Dodanie możliwości dodawania zdjęć do postów~~
  - [x] Dodanie możliwości komentowania postów
  - [x] Możliwość samodzielnego zakładania konta przez użytkowników
 
@@ -31,6 +31,11 @@ Strona stworzona przy pomocy frameworka Django w ramach zaliczenia "Projektu w j
  - [x] System logowania/wylogowywania
  - [x] Samodzielna akutalizacja profilu przez użytkownika
  - [x] Stylizacja formularza rejestracji przy pomocy CrispyForms
+ - [ ] Użycie Bootstrapa do layoutu strony
+ 
+ ## TODO:
  - [ ] Dodawanie/usuwanie/aktualizowanie postów przez użytkowników
+ - [ ] Zmiana/resetowanie adresu email i hasła użytkowników
+ - [ ] Hostowanie przy pomocy Heroku
 
 
