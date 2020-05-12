@@ -1,0 +1,8 @@
+{% extends "blog/base.html" %} 
+
+{% block content %} 
+       <h2>Zostałeś pomyślnie wylogowany</h2>
+        <div>
+            <small><a href="{% url 'login' %}">Zaloguj się ponownie</a></small>
+        </div>
+{% endblock content %}
