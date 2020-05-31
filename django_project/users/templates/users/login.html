@@ -6,15 +6,15 @@
         <form method="POST">
             {% csrf_token %}
             <fieldset class="form-group">
-                <legend class="border-botton mb-4">Zaloguj się</legend>
+                <legend class="border-botton mb-4">Log In</legend>
                 {{ form|crispy }}
             </fieldset>
-            <div>
-                <button type="submit">Zaloguj się</button>
+            <div class="form-group">
+                <button class="btn btn-outline-info" type="submit">Log In</button>
             </div>
         </form>
-        <div>
-            <small>Nie masz jeszcze konta? <a href="{% url 'register' %}">Zarejestruj się</a></small>
+         <div class="border-top pt-3">
+            <small class="text-muted">Don't have an account? <a href="{% url 'register' %}">Sign Up Here</a></small>
         </div>
      </div>
 {% endblock content %}
