@@ -33,7 +33,7 @@ Strona stworzona przy pomocy frameworka Django w ramach zaliczenia "Projektu w j
  - [x] Stylizacja formularza rejestracji przy pomocy CrispyForms
 
 
- ## Wersja Alfia
+ ## Wersja Alfa
 
  - [x] Dodawanie/usuwanie/aktualizowanie postów przez użytkowników
  - [x] Stworzenie layoutu strony przy użyciu Bootstrapa
