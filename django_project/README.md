@@ -39,8 +39,6 @@ Strona stworzona przy pomocy frameworka Django w ramach zaliczenia "Projektu w j
  - [x] Stworzenie layoutu strony przy użyciu Bootstrapa
  - [x] Możliwość samodzielnej zmiany nicku/maila/zdjęcia przez użytkownika
 
- ## TO DO:
+ ## Finalna wersja:
 
- - [ ] Hostowanie na Heroku
- - [ ] Dopracowanie wyglądu
- - [ ] Zmiana/resetowanie hasła przez użytkowników
+ - [x] Możliwość komentowania
