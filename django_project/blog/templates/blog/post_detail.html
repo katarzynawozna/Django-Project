@@ -4,7 +4,7 @@
           <img class="rounded-circle article-img" src="{{ object.author.profile.image.url }}">
           <div class="media-body">
             <div class="article-metadata">
-              <a class="mr-2" href="#">{{ object.author }}</a>
+              <a class="mr-2" href="{% url 'user-posts' object.author.username %}">{{ object.author }}</a>
               <small class="text-muted">{{ object.date|date:"F d, Y" }}</small>
                 {% if object.author == user %}
                 <div>
@@ -18,4 +18,22 @@
             <p class="article-content">{{ object.content }}</p>
           </div>
         </article>
+        <hr>
+      <a class="btn btn-secondary btn-sm mt-1 mb-1" href="{% url 'add_comment_to_post' pk=post.pk %}">Add comment</a>
+{% for comment in post.comments.all %}
+  {% if user.is_authenticated or comment.approved_comment %}
+    <div class="comment">
+        <div class="date">{{ comment.created_date }}
+         {% if not comment.approved_comment %}
+                <a class="btn btn-default" href="{% url 'comment_remove' pk=comment.pk %}"><span class="glyphicon glyphicon-remove"></span></a>
+                <a class="btn btn-default" href="{% url 'comment_approve' pk=comment.pk %}"><span class="glyphicon glyphicon-ok"></span></a>
+            {% endif %}
+        </div>
+        <strong>{{ comment.author }}</strong>
+        <p>{{ comment.text|linebreaks }}</p>
+    </div>
+    {% endif %}
+{% empty %}
+    <p>No comments here yet :(</p>
+{% endfor %}
 {% endblock content %}
